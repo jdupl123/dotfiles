@@ -1,0 +1,8 @@
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-liquid'
+Bundle 'scrooloose/syntastic'
+Bundle 'bling/vim-airline'
