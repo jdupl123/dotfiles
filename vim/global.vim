@@ -4,7 +4,7 @@ set nocompatible                           " Don't need to keep compatibility wi
 set hidden                                 " Allow hiding buffers with unsaved changes
 set listchars=trail:.,tab:▸\ ,eol:¬        " Change the invisible characters
 set fillchars+=vert:\                      " Hide pipes on vertical splits
-set nolist                                 " Hide invisibles by default
+set list                                 " Hide invisibles by default
 set showcmd                                " Show incomplete cmds down the bottom
 set showmode                               " Show current mode down the bottom
 set history=1000                           " Remember more history for commands and search patterns
@@ -55,5 +55,5 @@ set smartcase                              " Switch to case sensitive mode if ne
 
 " Default colourscheme
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
-  colorscheme hybrid
+  :colorscheme hybrid
 end
