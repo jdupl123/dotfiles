@@ -5,7 +5,7 @@ fresh freshshell/fresh bin/fresh --bin
 fresh config/\* --file
 
 # shell
-#fresh shell/\*
+fresh shell/\* --file
 
 # vim
 fresh-options --file=~/.vimrc --marker=\"
