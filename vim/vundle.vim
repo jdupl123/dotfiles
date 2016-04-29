@@ -13,4 +13,3 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ngmy/vim-rubocop'
-Helptags

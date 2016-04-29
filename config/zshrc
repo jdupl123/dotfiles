@@ -45,8 +45,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.fresh/build/shell.sh
 
-export GREP_OPTIONS=-r
-
 # Customize to your needs...
 export EDITOR='vim'
 export PATH=$(npm bin):/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
