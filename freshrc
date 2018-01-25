@@ -1,11 +1,11 @@
 # See http://freshshell.com/readme for documentation.
-fresh freshshell/fresh bin/fresh --bin
+#fresh freshshell/fresh bin/fresh --bin
 
 # config
-fresh config/\* --file
+#fresh config/\* --file
 
 # shell
-fresh shell/\* --file
+#fresh shell/\* --file
 
 # vim
 fresh-options --file=~/.vimrc --marker=\"
